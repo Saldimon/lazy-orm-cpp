@@ -32,5 +32,27 @@ CREATE TABLE student(
 	FOREIGN KEY(school_id) REFERENCES info_school(school_id) ON DELETE SET NULL
 );
 
-INSERT INTO student (`first_name`, `last_name`, `gender`, `name_father`) VALUES ("ali" , "yavari" , "male" , "reza");
+
+INSERT INTO student (first_name , last_name , gender , name_father )	
+VALUES 
+	('user1' , 'last_user1' , "male" , 'father_user1'),
+	('user2' , 'last_user2' , "female" , 'father_user2'),
+	('user3' , 'last_user3' , "male" , 'father_user3'),
+	('user4' , 'last_user4' , "female" , 'father_user4'),
+	('user5' , 'last_user5' , "male" , 'father_user5'),
+	('user6' , 'last_user6' , "female" , 'father_user6'),
+	('user7' , 'last_user7' , "male" , 'father_user7'),
+	('user8' , 'last_user8' , "male" , 'father_user8'),
+	('user9' , 'last_user9' , "female" , 'father_user19'),
+	('user10' , 'last_user10' , "male" , 'father_user10'),
+	('user11' , 'last_user11' , "male" , 'father_user11'),
+	('user12' , 'last_user12' , "male" , 'father_user12'),
+	('user13' , 'last_user13' , "female" , 'father_user13'),
+	('user14' , 'last_user14' , "female" , 'father_user14'),
+	('user15' , 'last_user15' , "male" , 'father_user15'),
+	('user16' , 'last_user16' , "female" , 'father_user16'),
+	('user17' , 'last_user17' , "male" , 'father_user17'),
+	('user18' , 'last_user18' , "female" , 'father_user18'),
+	('user19' , 'last_user19' , "male" , 'father_user19'),
+	('user20' , 'last_user20' , "female" , 'father_user20');
 select *from student;
