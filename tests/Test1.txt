@@ -55,4 +55,17 @@ VALUES
 	('user18' , 'last_user18' , "female" , 'father_user18'),
 	('user19' , 'last_user19' , "male" , 'father_user19'),
 	('user20' , 'last_user20' , "female" , 'father_user20');
+
+INSERT INTO teachers(first_name , last_name , gender ,  email)
+VALUES
+	('user101' , 'last_user101' , "male" , 'test101@test.com'),
+	('user102' , 'last_user102' , "female" , 'test102@test.com'),
+	('user103' , 'last_user103' , "male" , 'test103@test.com'),
+	('user104' , 'last_user104' , "female" , 'test104@test.com'),
+	('user105' , 'last_user105' , "male" , 'test105@test.com'),
+	('user106' , 'last_user106' , "female" , 'test106@test.com'),
+	('user107' , 'last_user107' , "male" , 'test107@test.com'),
+	('user108' , 'last_user108' , "female" , 'test108@test.com'),
+	('user109' , 'last_user109' , "male" , 'test109@test.com'),
+	('user110' , 'last_user110' , "female" , 'test110@test.com');
 select *from student;
