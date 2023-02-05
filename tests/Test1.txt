@@ -69,3 +69,8 @@ VALUES
 	('user109' , 'last_user109' , "male" , 'test109@test.com'),
 	('user110' , 'last_user110' , "female" , 'test110@test.com');
 select *from student;
+select *from teachers;
+
+UPDATE student SET first_name="alireza" , last_name="mohamadi" WHERE student_id=8;
+DELETE FROM student WHERE student_id=18;
+SELECT * FROM student WHERE student_id=2;
